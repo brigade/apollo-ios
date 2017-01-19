@@ -15,7 +15,7 @@ public final class GraphQLResultReader {
   let resolver: GraphQLResolver
   
   var objectStack: [JSONObject]
-  var currentObject: JSONObject? {
+  public var currentObject: JSONObject? {
     return objectStack.last
   }
   
